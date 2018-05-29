@@ -511,7 +511,7 @@ style="float:center; cursor:pointer; cursor:hand;border:0" class = "pic2"></img>
 <script> // I relied on StackOverflow to learn most of this
 var coll = document.getElementsByClassName("collapsible");
 var i;
-
+// This is for the 4 green buttons
 for (i = 0; i < coll.length; i++) {
     coll[i].addEventListener("click", function() {
         this.classList.toggle("active");
@@ -524,6 +524,7 @@ for (i = 0; i < coll.length; i++) {
     });
 }
 
+// This is for the randomizer button at the bottom
 var thing = ["Russia","Brazil","Uruguay","Colombia","Argentina","Peru","Mexico","Costa Rica",
 "Panama","Australia","Iran","South Korea","Japan","Saudi Arabia","Nigeria","Egypt","Tunisia",
 "Morocco","Senegal","Belgium","Germany","England","Spain",
