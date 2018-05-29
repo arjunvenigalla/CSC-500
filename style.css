@@ -90,11 +90,13 @@
   font-size: 15px;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
+.active, .collapsible:hover
+{
   background-color: green;
 }
-.content {
+
+.content
+{
     width: 50%;
     padding: 0 18px;
     color: black;
@@ -104,6 +106,7 @@
     background-color: green;
     margin: 0 auto;
 }
+
 .inside
 {
    margin: 0 auto;
