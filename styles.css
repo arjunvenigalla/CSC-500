@@ -8,7 +8,7 @@
    background-color: rgb(255, 224, 13);
 }
 
-#headd
+#headerinside /* For the headers inside a button */
 {
    font-size: 16px;
    color: white;
@@ -18,7 +18,7 @@
    background-color: inherit;
 }
 
-#caption1
+#caption1 /* Caption of the first picture (top of the website) */
 {
    font-size: 10px;
    margin: 10px 565px;
@@ -26,7 +26,7 @@
    background-color: inherit;
 }
 
-#caption2
+#caption2 /* Caption of the second picture (the trophy) */
 {
    font-size: 10px;
    margin: 0px 592px;
@@ -34,7 +34,7 @@
    background-color: inherit;
 }
 
-#headleft
+#headcenter /* similar use to headerinside */
 {
    font-size: 16px;
    color: white;
@@ -44,16 +44,8 @@
    background-color: inherit;
 }
 
-#headright
+.pic1 /* To style the picture at the top of the page */
 {
-   font-size: 16px;
-   color: white;
-   margin: 0px 800px;
-   padding: 10px 0px;
-   background-color: inherit;
-}
-
-.pic1 {
     display: block;
     padding: 0px 0px;
     margin: 0px auto;
@@ -61,7 +53,8 @@
     height: 350px;
 }
 
-.pic2 {
+.pic2 /* To style the second picture (trophy) */
+{
     display: block;
     padding: 10px 0px;
     margin: 0 auto;
@@ -69,16 +62,8 @@
     height: 300px;
 }
 
-.random
+.collapsible /* For the buttons */
 {
-   border: none;
-   border-radius: none;
-   padding: none;
-   background-color: rgb(193, 107, 138);
-}
-
-/* Style the button that is used to open and close the collapsible content */
-.collapsible {
   background-color: rgb(14, 175, 20);
   color: white;
   cursor: pointer;
@@ -90,12 +75,12 @@
   font-size: 15px;
 }
 
-.active, .collapsible:hover
+.active, .collapsible:hover /* Changes the button's color when the mouse is hovering over it */
 {
   background-color: green;
 }
 
-.content
+.content /* Inside the button */
 {
     width: 50%;
     padding: 0 18px;
@@ -107,7 +92,7 @@
     margin: 0 auto;
 }
 
-.inside
+.inside /* Styling the tables */
 {
    margin: 0 auto;
    text-align: center;
@@ -119,7 +104,7 @@
    background-color: green;
 }
 
-#tablestuff
+#tablestuff /* More table styling */
 {
    text-align: center;
    margin: 0px auto;
@@ -127,7 +112,7 @@
    background-color: green;
 }
 
-#randomizer
+#randomizer /* For styling the name of the team given by the randomize button */
 {
    text-align: center;
    color: black;
@@ -137,7 +122,7 @@
    background-color: inherit;
 }
 
-#clicker
+#clicker /* Styling the click button for the randomize button */
 {
    text-align: center;
    font-size: 25px;
@@ -151,7 +136,7 @@
    background-color: inherit;
 }
 
-#final
+#final /* For the header above the randomize button */
 {
    text-align: center;
    font-size: 25px;
